@@ -1,0 +1,21 @@
+
+body{
+background-color: black;
+position: relative;
+}
+
+p{
+color: whitesmoke;
+position:relative;
+animation-name: textanimation;
+animation-duration: 6s;
+animation-iteration-count: 100;
+animation-delay: 0.5s;
+animation-direction: normal;
+}
+
+@keyframes textanimation{
+0%{color: midnightblue; left: 0px;}
+100%{color: yellow; left: 200px;font-size: 5cm;}
+
+}
